@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRAVA</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- font awesome cdn link  -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="clients.css">
+    <link rel="stylesheet" href="typing.css">
+
+</head>
+<body onload="myFunction()" >
+    <div id="loading"></div>
+    
+    <div id="particles-js"></div>
+
+    <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+      </a>
+<!-- header section starts  -->
+
+<header  data-aos="zoom-out">
+    
+    <a href="#" class="logo" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000"><span></span><img src="images/363-3633072_strava-hd-png-download-removebg-preview.png"></a>
+    
+    <div id="Mode">
+        <div id="switch"></div>
+        <label id="inner-text">Dark</label>
+    </div>
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar" class="fas fa-bars"></label>
+    <div id="fixedbutton">
+        <input type="checkbox" id="toggle" onchange="changeMode()">
+        <label for="toggle"></label>
+      </div>
+    
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#about">about</a>
+        <a href="#review">review</a>
+        <a href="#pricing">pricing</a>
+        <a href="#contact">contact</a>
+        
+         
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+        
+    
+
+      
+     
+
+    <div class="content">
+        <video playsinline autoplay muted loop  id="bgvid">
+            <source src="images\No Rejection – Athletes Unfiltered.mp4" type="video/webm">
+            
+          </video>
+          <!-- <img src="images/png-transparent-feature-phone-smartphone-strava-user-interface-smartphone-electronics-gadget-user-interface-design-removebg-preview.png" alt=""> -->
+        <div class="text-box">
+            <div class="fixed-text">NO</div>
+            <div class="animate-text">
+                <div>
+                    <span>SHAME</span>
+                    <span>BORDER</span>
+                    <span>BOUNDARIES</span>
+                    <span>STRESS</span>
+                    <span>REGRET</span>
+                    <span>REJECTION</span>
+                </div>	
+            </div>
+        </div>
+        
+        
+        <a href="https://play.google.com/store/apps/details?id=com.strava"   target="_blank" class="btn">download now</a>
+    </div>
+
+    
+
+</section>
+
+<!-- home section ends -->
+
+<!-- features section starts  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading"> app features </h1>
+
+
+    <div class="box-container" >
+
+        <div class="box"   data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+            <img src="images/f-icon1.png" alt=""  >
+            <h3  >Track & Analyze</h3>
+            <p>Learn about recording an activity on Strava and all the ways you can analyze your performance.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+            <img src="images/f-icon2.png" alt="" >
+            <h3>Share & Connect</h3>
+            <p>Workout with friends, stay motivated, get inspired - our community is what separates Strava from the rest.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+            <img src="images/f-icon3.png" alt="" >
+            <h3>Explore & Compete</h3>
+            <p>Discover your next goal with Strava segments, routes, maps, clubs, challenges and race courses.
+
+                EXPLORE</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- features section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading" > about the app </h1>
+
+    
+    <div class="column">
+
+        <div class="image" data-tilt data-tilt-glare data-tilt-max-glare="0.9" >
+            <img src="images/about-img.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Get notified on the go..</h3>
+            <p>If you're active, Strava was made for you. Our mobile app and website enhance the experience of sport and connect millions of athletes from around the world. We're the social network for those who strive. Join us.
+
+
+
+            </p>
+            <div class="buttons" >
+                <a href="#" class="btn"> <i class="fab fa-apple"></i> app store </a>
+                <a href="#" class="btn"> <i class="fab fa-google-play"></i> google-play </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- newsletter  -->
+
+<div class="newsletter" >
+
+    <h3>Subscribe For New Features</h3>
+    <p>want to know more...</p>
+    <form action="">
+
+        <input type="email" placeholder="enter your email">
+        <input type="submit" value="Subscribe">
+    </form>
+
+</div>
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading" > people's review </h1>
+
+    <div class="box-container">
+
+        <div class="box" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+                <img src="images/pic1.png" alt="">
+                <h3>debjit </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="comment">
+                    very bad
+                </div>
+            </div>
+        </div>
+
+        <div class="box"data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+                <img src="images/pic2.png" alt="">
+                <h3>shounak</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="comment">
+                   waak
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-tilt data-tilt-glare data-tilt-max-glare="0.5" >
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+                <img src="images/pic3.png" alt="">
+                <h3>sayan</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="comment">
+                   chiiiii
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<h1 class="heading">We are compatible with </h1>
+<div class="row">
+    <div class="container">
+      <section class="customer-logos slider" data-arrows="true">
+        <div class="slide"><img src="device_compatible/1.png"></div>
+        <div class="slide"><img src="device_compatible/2.png"></div>
+        <div class="slide"><img src="device_compatible/3.png"></div>
+        <div class="slide"><img src="device_compatible/4.png"></div>
+        <div class="slide"><img src="device_compatible/5.png"></div>
+        <div class="slide"><img src="device_compatible/6.png"></div>
+        <div class="slide"><img src="device_compatible/7.png"></div>
+        <div class="slide"><img src="device_compatible/8.png"></div>
+        <div class="slide"><img src="device_compatible/9.png"></div>
+      </section>
+    </div>
+  </div>
+<!-- review section ends -->
+
+<!-- pricing section starts  -->
+
+<section class="pricing" id="pricing">
+
+    <h1 class="heading"> Our Pricing Plans </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3 class="title">basic</h3>
+            <div class="price"><span></span></div>
+            <ul>
+                <li> <i class="fas fa-check"></i>  </li>
+                <li> <i class="fas fa-check"></i>  </li>
+                <li> <i class="fas fa-times"></i> </li>
+                <li> <i class="fas fa-times"></i>  </li>
+            </ul>
+            <a href="#" class="btn">check out</a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">standard</h3>
+            <div class="price"><span></span></div>
+            <ul>
+                <li> <i class="fas fa-check"></i> </li>
+                <li> <i class="fas fa-check"></i> </li>
+                <li> <i class="fas fa-check"></i></li>
+                <li> <i class="fas fa-times"></i></li>
+            </ul>
+            <a href="#" class="btn">check out</a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">premium</h3>
+            <div class="price"><span></span></div>
+            <ul>
+                <li> <i class="fas fa-check"></i>  </li>
+                <li> <i class="fas fa-check"></i> </li>
+                <li> <i class="fas fa-check"></i> </li>
+                <li> <i class="fas fa-check"></i> </li>
+            </ul>
+            <a href="#" class="btn">check out</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- pricing section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <div class="image">
+        <img src="images/contact-img.png" alt="">
+    </div>
+
+    <form action="" >
+
+        <h1 class="heading">contact us</h1>
+
+        <div class="inputBox">
+            <input type="text" required>
+            <label>name</label>
+        </div>
+
+        <div class="inputBox">
+            <input type="email" required>
+            <label>email</label>
+        </div>
+
+        <div class="inputBox">
+            <input type="number" required>
+            <label>phone</label>
+        </div>
+
+        <div class="inputBox">
+            <textarea required name="" id="" cols="30" rows="10"></textarea>
+            <label>message</label>
+        </div>
+
+        <input type="submit" class="btn" value="send message">
+
+    </form>
+
+</section>
+
+<!-- contact section edns -->
+
+<!-- footer section starts  -->
+
+<div class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>a for apple b for ball</p>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">features</a>
+            <a href="#">about</a>
+            <a href="#">review</a>
+            <a href="#">pricing</a>
+            <a href="#">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">pinterest</a>
+            <a href="#">twitter</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <div class="info">
+                <i class="fas fa-phone"></i>
+                <p>456545776 <br> 5ey6567657 </p>
+            </div>
+            <div class="info">
+                <i class="fas fa-envelope"></i>
+                <p> e@gmail.com <br> le@gmail.com </p>
+            </div>
+            <div class="info">
+                <i class="fas fa-map-marker-alt"></i>
+                <p> MCKV</p>
+            </div>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> &copy; Made by noone </h1>
+
+</div>
+<script src="script.js"></script>
+<script src="partcles_.js"></script>
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var preloader = document.getElementById('loading');
+    function myFunction(){
+        preloader.style.display = 'none';
+    }
+
+
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+   
+  });
+</script>
+<script>
+    function changeMode(){
+      document.body.classList.toggle("dark");
+    }
+  </script>
+     <script>
+        const Mode_icon = document.getElementById('Mode');
+        const Switch_Mode = document.getElementById('switch');
+        const Inner_text = document.getElementById('inner-text');
+        Mode.onclick = function(){
+            document.body.classList.toggle('dark-mode');
+            Switch_Mode.classList.toggle('switch-active');
+            Inner_text.classList.toggle('Inner-text-active');
+            if(document.body.classList.contains('dark-mode')){
+                Inner_text.innerHTML = 'Light';
+            }
+            else{
+                Inner_text.innerHTML = 'Dark';
+            }
+        }
+
+    </script>
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+     <script type="text/javascript">
+		$(document).ready(function() {
+ 		  $('.customer-logos').slick({
+   			slidesToShow: 5,
+    		slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 100,
+			arrows: true,
+			dots: false,
+			pauseOnHover: true,
+			responsive: [{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 4
+			}
+			}, {
+			breakpoint: 520,
+			settings: {
+				slidesToShow: 3
+			}
+			}]
+		});
+		});
+     </script>
+<script type="text/javascript" src="vanilla-tilt.min.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".card"),{
+      glare: true,
+      reverse: true,
+      "max-glare": 0.5
+    });
+  </script>
+</body>
+</html>
