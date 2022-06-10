@@ -12,7 +12,11 @@
 
 /* 1212221 */
 video {
+<<<<<<< HEAD
     object-fit: cover;
+=======
+    object-fit: fill;
+>>>>>>> 22161bedc092978f8721522682cfda7f0b600563
     width: 100vw;
     height: 100vh;
     position: absolute ;
@@ -84,7 +88,10 @@ header label{
 section{
     padding-top: 9rem;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 22161bedc092978f8721522682cfda7f0b600563
 #loading
 {
     position: fixed;
@@ -119,7 +126,10 @@ html{
 
 body{
     background: white;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 22161bedc092978f8721522682cfda7f0b600563
    
 
 }
@@ -324,7 +334,10 @@ position: relative;
 }
 .features{
     overflow-x: hidden;
+<<<<<<< HEAD
     padding-top: 50rem;
+=======
+>>>>>>> 22161bedc092978f8721522682cfda7f0b600563
 }
 
 .features .box-container{
@@ -879,4 +892,8 @@ background: linear-gradient(0deg, rgba(209,164,0,1) 0%, rgba(225,0,0,1) 0%, rgba
     }
   
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 22161bedc092978f8721522682cfda7f0b600563
